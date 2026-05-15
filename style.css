@@ -4,10 +4,30 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1920px;
     overflow-x: hidden;
 }
-.marginSEO {
-    padding: 15%;
+.mainSEO {
+    padding: 10% 15% 15% 10%;
+}
+#miniDesc {
+    font-size: 12px;
+    font-weight: 550;
+    color: #c42b91;
+    border: #efc5e1 3px solid;
+    background-color: rgba(239, 197, 225, 0.5);
+    border-radius: 30px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: max-content;
+    margin-bottom: 5%;
+}
+.pinkish {
+    color: #c42b91;
+}
+.purplish {
+    color: #7c4099;
 }
