@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 body {
     max-width: 1440px;
@@ -10,6 +10,11 @@ body {
 .mainSEO {
     margin: auto;
     padding: 10% 30% 30% 10%;
+    width: 1440px;
+}
+.first {
+    margin: auto;
+    padding-left: 20%;
 }
 #miniDesc {
     font-size: 10px;
