@@ -8,12 +8,16 @@ body {
     overflow-x: hidden;
 }
 .mainSEO {
-    margin: auto;
-    padding: 10% 25%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
     width: max-content;
 }
-.first, .important {
-    padding-bottom: 10%;
+.first, .important, .audit {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 #miniDesc {
     font-size: 10px;
@@ -34,7 +38,7 @@ body {
     border: #efc5e1 1px solid;
     background-color: #FCE8F6;
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
     width: max-content;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -129,5 +133,15 @@ a {
     max-height: fit-content;
     max-width: fit-content;
 }
+.pinkSEO {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 1920px;
+    background-color: #FCE8F6;
+}
+
 
 
