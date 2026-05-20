@@ -12,7 +12,7 @@ body {
     padding: 10% 25%;
     width: max-content;
 }
-.first {
+.first, .important {
     padding-bottom: 10%;
 }
 #miniDesc {
@@ -66,8 +66,8 @@ a {
     color: #777A85;
     font-size: 18px;
 }
-.smallerTextProblem {
-     color: #777A85;
+.smallerText14 {
+    color: #777A85;
     font-size: 14px;
 }
 .smallP {
@@ -87,7 +87,7 @@ a {
     width: max-content;
     padding: 1% 2%;
 }
-.impDesc {
+.impDesc, .auditDesc {
     border: #777A85 1px solid;
     border-radius: 10px;
     padding: 1%;
@@ -95,9 +95,39 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+.auditDesc {
+    flex-direction: column;
+}
 .descBlock {
     margin: 4%;
     flex: 0 0 40%;
+}
+.aDescBlock {
+    margin: 4%;
+    flex: 0 0 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.floatyNum {
+    flex: 0 0 5%;
+}
+.audText {
+    flex: 0 0 75%;
+    max-width: fit-content;
+}
+.audMiniDesc {
+    color: #c42b91;
+    border: #efc5e1 1px solid;
+    border-radius: 20px;
+    background-color: #FCE8F6;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex: 0 0 20%;
+    margin-left: auto;
+    max-height: fit-content;
+    max-width: fit-content;
 }
 
 
