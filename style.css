@@ -19,6 +19,10 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.contact {
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
 #miniDesc {
     font-size: 10px;
     font-weight: 550;
@@ -61,6 +65,7 @@ p {
 a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
     font-family: 'Poppins';
 }
 .normalText {
@@ -134,13 +139,40 @@ a {
     max-width: fit-content;
 }
 .pinkSEO {
-    margin-top: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 25%;
     padding-right: 25%;
     width: 1920px;
     background-color: #FCE8F6;
+}
+.miniCT {
+    border: #efc5e1 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+    border-radius: 20px;
+    padding: 3%;
+    background-image: linear-gradient(to right, #FCE8F6 , rgba(65, 86, 167, 0.1));
+}
+.btnThingOutline {
+    border: #c42b91 3px solid;
+    border-radius: 10px;
+    padding: 1%;
+    flex: 0 0 30%;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 1% 2.5%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.txtBlock {
+    flex: 0 0 70%;
+    max-width: fit-content;
 }
 
 
