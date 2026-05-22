@@ -167,7 +167,6 @@ a {
     flex: 0 0 22%;
 }
 .contact {
-
     margin-top: -5%;
     max-width: fit-content;
 }
@@ -198,7 +197,6 @@ a {
 }
 .howTo {
     max-width: 60%;
-    margin-bottom: 5%;
 }
 .howToFlex {
     max-width: 65%;
@@ -215,4 +213,45 @@ a {
 }
 .smallOpac {
     opacity: 18%;
+}
+.greySEO {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: fit-content;
+    background-color: #F7F7F9;
+}
+.auditGet {
+    display: flex;
+    flex-wrap: wrap;
+}
+.auditGDesc {
+    flex: 0 0 50%;
+}
+.auditGForm {
+    background-color: white;
+    border-radius: 20px;
+    padding: 3%;
+    flex: 0 0 45%;
+    margin-left: 5%;
+    box-shadow: -3px 3px 10px lightgrey;
+}
+input {
+    border: #777A85 1px solid;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #777A85;
+    padding: 2%;
+    width: 100%;
+}
+input[type='submit'] {
+    padding: 4%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
 }
