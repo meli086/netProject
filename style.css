@@ -99,7 +99,7 @@ a {
     width: max-content;
     padding: 1% 2%;
 }
-.impDesc, .auditDesc {
+.impDesc, .auditDesc, .faqList {
     border: #777A85 1px solid;
     border-radius: 20px;
     padding: 1%;
@@ -254,4 +254,90 @@ input[type='submit'] {
     width: 100%;
     border: none;
     font-size: 16px;
+}
+.about {
+    margin-top: -10%;
+    max-width: fit-content;
+    margin-bottom: 5%;
+}
+.aboutFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutSmall {
+    border: #F7F7F9 1px solid;
+    border-radius: 20px;
+    background-color: #F7F7F9;    
+    padding: 2%;
+    flex: 0 0 30%;
+    margin-right: 3%;
+    max-width: fit-content;
+}
+.faq {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.faqList {
+    flex-direction: column;
+    max-width: 75%;
+}
+.accordion {
+  background-color: #fff;
+  font-family: 'Nunito';
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.accordion:after {
+  content: '▾';
+  color: #C42B91;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: '▴';
+  color: #C42B91;
+  float: right;
+  margin-left: 5px;
+}
+.panel {
+  padding-top: 0;
+  padding-bottom: 4px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.footRedir {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.buttonThingFoot {
+    color: white;
+    background-color: #c42b91;
+    border-radius: 10px;
+    width: max-content;
+    padding: 3% 4%; 
+    margin: auto;
+}
+.buttonThing:hover, .buttonThingFoot:hover {
+    background-color: #A82479;
+}
+.btnThingOutline:hover {
+    background-color: #FCE8F6;
 }
