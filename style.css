@@ -440,6 +440,165 @@ th {
 #heroVisual {
     width: 85%;
 }
+.vSmallPGrid {
+    font-family: 'Poppins';
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.issues {
+    padding: 5%;
+    background-color: #f7f7fa;
+}
+.issueGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5% 2%;
+}
+.issueContainer {
+    overflow: hidden;
+    border-radius: 25px;
+}
+.issueContainer h4 {
+    font-size: 20px;
+}
+.issueSmallP {
+    font-family: 'Poppins';
+    font-size: 12px;
+    flex: 0 0 50%;
+    text-align: right;
+    margin: auto;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.tagline {
+    display: flex;
+}
+.microDescPink {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgba(196, 43, 145, 0.08);
+    padding: 2% 3%;
+    border-radius: 25px;
+    max-width: fit-content;
+}
+.microDescPurple {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgba(124, 64, 153, 0.08);
+    padding: 2% 3%;
+    border-radius: 25px;
+    max-width: fit-content;
+}
+.microDescBlue {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgba(65, 86, 167, 0.08);
+    padding: 2% 3%;
+    border-radius: 25px;
+    max-width: fit-content;
+}
+.issueSolution {
+    padding: 5%;
+    padding-bottom: 10%;
+    background-color: white;
+}
+.issueSolution p {
+    line-height: 1.8;
+}
+.issuePink {
+    padding: 5%;
+    background-color: #FAE8F2;
+}
+.issuePink h3 {
+    font-size: 30px;
+    color: #C42B91;
+    opacity: 25%;
+    flex: 0 0 50%;
+}
+.issuePurple {
+    padding: 5%;
+    background-color: #F2EBFA;
+}
+.issuePurple h3 {
+    font-size: 30px;
+    color: #7C4099;
+    opacity: 25%;
+    flex: 0 0 50%;
+}
+.blueish {
+    color:#4156A7;
+}
+.issueBlue {
+    padding: 5%;
+    background-color: #EBF0FA;
+}
+.issueBlue h3 {
+    font-size: 30px;
+    color: #4156A7;
+    opacity: 25%;
+    flex: 0 0 50%;
+}
+.miniDescHardPink {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #C42B91;
+    padding: 1% 2%;
+    border-radius: 25px;
+    max-width: fit-content;
+}
+.packet {
+    padding: 5%;
+    background-color: #EBF0FC;
+    text-align: center;
+}
+.fullPack {
+    background-color: #171721;
+    border-radius: 25px;
+    padding: 5%;
+    color: white;
+}
+.fullPack h3 {
+    font-size: 34px;
+}
+.fullPack .btnThingMain {
+    padding: 5%;
+}
+.fullPackFlex {
+    display: flex;
+}
+.fullPackFLeft {
+    flex: 0 0 50%;
+    text-align: left;
+}
+.fullPackFRight {
+    flex: 0 0 35%;
+    margin: auto;
+}
+.fullPackFRightS {
+    flex: 0 0 20%;
+    margin: auto;
+    margin-left: -15%;
+}
+.featList {
+    text-align: left;
+    width: 100%;
+} 
+.fullPackFeature {
+    padding-bottom: 2%;
+}
+.fullPack td {
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+.checkGreen {
+    width: 8%;
+}
 .bigFooter {
     background-color: #171721;
     padding-top: 5%;
