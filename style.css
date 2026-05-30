@@ -595,9 +595,98 @@ th {
     font-family: 'Poppins';
     font-size: 20px;
     padding-bottom: 1%;
+    justify-content: center;
 }
 .checkGreen {
-    width: 8%;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+.packFlex {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.packFlex ul {
+    list-style: none ;
+}
+.packFlex li {
+    line-height: 1.8;
+    font-family: 'Poppins';
+    color: #404047;
+    font-size: 16px;
+}
+.packFlex h3 {
+    font-size: 28px;
+}
+.starterP {
+    border: 3px solid #C42B91;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 4% 3%;
+    flex: 0 0 49%;
+    text-align: left;
+}
+.starterP li::before {
+    content: '✓';
+    color: #0EA5B7;
+    font-size: 22px;
+    padding-right: 2%;
+}
+.starterP .btnThingMain {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+.themeP {
+    border: 3px solid #7C4099;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 4% 3%;
+    flex: 0 0 49%;
+    text-align: left;
+}
+.themeP li::before {
+    content: '✓';
+    color: #7C4099;
+    font-size: 22px;
+    padding-right: 2%;
+}
+.themeP .btnThingMain {
+    border: #7C4099;
+    background-color: #7C4099;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+.themeP .btnThingMain:hover {
+    background-color: #6A3684;
+}
+.partner {
+    color: #777A85;
+    text-align: center;
+    padding: 5%;
+    background-color: #F0F3FA;
+}
+#partnerLogo {
+    width: 40%;
+}
+.CTAfinal {
+    text-align: center;
+    background-color: #4156A7;
+    padding: 5%;
+    color: #fff;
+}
+.CTAfinal .smallerText {
+    color: #fff;
+}
+.CTAfinal .buttonThing {
+    background-color: #fff;
+}
+.CTAfinal .buttonThing:hover {
+    background-color: #FCE8F6;
 }
 .bigFooter {
     background-color: #171721;
