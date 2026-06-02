@@ -664,6 +664,51 @@ th {
 .themeP .btnThingMain:hover {
     background-color: #6A3684;
 }
+.fullOffer {
+    padding: 5%;
+    background-color: #fff;
+}
+.offerHeadline {
+    display: flex;
+    height: max-content;
+}
+.offerHText {
+    flex: 0 0 50%;
+}
+.fullOffer .btnThingOutline {
+    flex: 0 0 20%;
+    border: 1px solid #DBDEEB;
+    color: black;
+    padding: 1% 2%;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10%;
+}
+.offerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4% 2%;
+}
+.ofGridBox {
+    border: 1px solid #EBEBF2;
+    border-radius: 16px;
+    padding: 10%;
+}
+.ofGridBox .microDescPurple {
+    float: right;
+    margin-top: -6%;
+    margin-right: -6%;
+    padding: 2% 5%;
+}
+.offerFrame {
+    width: 20%;
+}
+.ofGridBox h4 {
+    font-size: 20px;
+}
+.trial {
+    padding: 5%;
+}
 .partner {
     color: #777A85;
     text-align: center;
