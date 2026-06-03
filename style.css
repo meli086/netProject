@@ -757,7 +757,7 @@ th {
     display: flex;
     overflow-x: auto;
     pointer-events: none;
-
+    margin-top: 2%;
 }
 .carousel::-webkit-scrollbar {
     display: none;
