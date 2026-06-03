@@ -708,6 +708,79 @@ th {
 }
 .trial {
     padding: 5%;
+    display: flex;
+}
+.trialText {
+    margin: auto;
+    flex: 0 0 70%;
+}
+#trialVisual {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25%;
+    flex: 0 0 30%;
+}
+.trialText ul {
+    list-style-type: none;
+}
+.trialText li {
+    line-height: 1.8;
+    font-family: 'Poppins';
+    color: #404047;
+    font-size: 16px;
+    font-weight: bold;
+}
+.trialText li::before {
+    content: "✓";
+    color: rgb(14, 165, 183);
+    font-size: 22px;
+    padding-right: 2%;
+}
+.trialText .buttonThing {
+    padding: 1.5% 3%;
+    border-radius: 50px;
+}
+.clients {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #1C1F2E;
+}
+.clients h3 {
+    color: #fff;
+    font-size: 35px;
+}
+.carousel {
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    overflow-x: auto;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 25s infinite linear;
+    padding-right: 1em;
+}
+.card {
+    align-content: center;
+    height: 8em;
+    width: 16em;
+    padding: 1% 2%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
 }
 .partner {
     color: #777A85;
