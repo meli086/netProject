@@ -756,6 +756,8 @@ th {
     height: fit-content;
     display: flex;
     overflow-x: auto;
+    pointer-events: none;
+
 }
 .carousel::-webkit-scrollbar {
     display: none;
