@@ -784,6 +784,125 @@ th {
     from {translate: 0;}
     to {translate: -100%;}
 }
+.real {
+    padding: 5%;
+}
+.realHeadline, .opHeadline {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.realFoot {
+    text-align: center;
+    margin-top: 5%;
+}
+.realGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4% 2%;
+}
+.realBox {
+    border-radius: 25px;
+    border: 1px solid #E8E8ED;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+.screenshot {
+    background-color: #F0F0F5;
+    color: #B2B2B8;
+    padding: 10% 20%;
+    text-align: center;
+    font-size: 14px;
+}
+.boxInfo {
+    padding: 5%;
+}
+.boxInfo h3 {
+    font-size: 24px;
+}
+.boxInfo .microDescPink, .boxInfo .microDescPurple, .boxInfo .microDescBlue {
+    float: left;
+    margin-right: 2%;
+    padding: 1% 2%;
+}
+.real .buttonThing {
+    background-color: #fff;
+    padding: 1% 2%;
+    border-radius: 50px;
+    border: 2px solid #c42b91;
+}
+.real .buttonThing:hover {
+    background-color: #FCE8F6;
+}
+.grayish {
+    color: #666670;
+    letter-spacing: 1px;
+}
+.opinion {
+    background-color: #1C1F2E;
+    padding: 5%;
+    overflow: hidden;
+}
+.opinion h2 {
+    color: #fff;
+}
+.opFlex {
+    display: flex;
+    gap: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: -30%;
+}
+.opBig, .opSmall {
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 2%;
+    flex: 0 0 25%;
+}
+.opBig h2, .opSmall h2 {
+    color: #0EA5B7;
+    font-size: 54px;
+    font-weight: 700;
+}
+.opinionP {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.pfp {
+    flex: 0 0 30%;
+    width: 10%;
+    float: left;
+}
+.clientText {
+    float: left;
+    margin-left: 2%;
+}
+.microP {
+    font-size: 12px;
+    color: #777A85;
+}
+.opSmall {
+    height: max-content;
+}
+.blog {
+    padding: 5%;
+    background-color: #F7F7FA;
+}
+.blog .btnThingOutline {
+    border: 1px solid #DBDEEB;
+    font-size: 15px;
+    float: right;
+    padding: 2% 3%;
+    margin-top: 15%;
+}
+.blogHead {
+    display: flex;
+}
+.blogHeadL, .blogHeadR {
+    flex: 0 0 50%;
+} 
 .partner {
     color: #777A85;
     text-align: center;
